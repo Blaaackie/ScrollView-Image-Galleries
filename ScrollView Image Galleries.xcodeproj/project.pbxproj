@@ -15,6 +15,7 @@
 		682D2B2E1F38E41100CBA3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682D2B2C1F38E41100CBA3E6 /* LaunchScreen.storyboard */; };
 		682D2B391F38E41100CBA3E6 /* ScrollView_Image_GalleriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 682D2B381F38E41100CBA3E6 /* ScrollView_Image_GalleriesTests.m */; };
 		682D2B441F38E41100CBA3E6 /* ScrollView_Image_GalleriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 682D2B431F38E41100CBA3E6 /* ScrollView_Image_GalleriesUITests.m */; };
+		682D2B591F390AD600CBA3E6 /* ScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682D2B581F390AD600CBA3E6 /* ScrollController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		682D2B3F1F38E41100CBA3E6 /* ScrollView Image GalleriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScrollView Image GalleriesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		682D2B431F38E41100CBA3E6 /* ScrollView_Image_GalleriesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollView_Image_GalleriesUITests.m; sourceTree = "<group>"; };
 		682D2B451F38E41100CBA3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		682D2B571F390AD600CBA3E6 /* ScrollController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollController.h; sourceTree = "<group>"; };
+		682D2B581F390AD600CBA3E6 /* ScrollController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				682D2B221F38E41100CBA3E6 /* AppDelegate.m */,
 				682D2B241F38E41100CBA3E6 /* ViewController.h */,
 				682D2B251F38E41100CBA3E6 /* ViewController.m */,
+				682D2B571F390AD600CBA3E6 /* ScrollController.h */,
+				682D2B581F390AD600CBA3E6 /* ScrollController.m */,
 				682D2B271F38E41100CBA3E6 /* Main.storyboard */,
 				682D2B2A1F38E41100CBA3E6 /* Assets.xcassets */,
 				682D2B2C1F38E41100CBA3E6 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682D2B591F390AD600CBA3E6 /* ScrollController.m in Sources */,
 				682D2B261F38E41100CBA3E6 /* ViewController.m in Sources */,
 				682D2B231F38E41100CBA3E6 /* AppDelegate.m in Sources */,
 				682D2B201F38E41100CBA3E6 /* main.m in Sources */,

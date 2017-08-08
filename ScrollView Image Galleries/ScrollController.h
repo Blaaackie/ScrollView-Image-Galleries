@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ScrollController.h
 //  ScrollView Image Galleries
 //
 //  Created by Tye Blackie on 2017-08-07.
@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
 
-@interface ViewController : UIViewController
 
-
+@interface ScrollController : UIViewController
+@property (nonatomic, strong) UIImage *image;
 
 @end
-
